@@ -1,0 +1,7 @@
+all: mergesort_Fork
+
+mergesort_Fork: mergesort_Fork.c
+	gcc -g -Wall $< -o $@
+
+clean:
+	rm mergesort_Fork
